@@ -20,7 +20,7 @@ import (
 // ) // block scope
 
 const (
-	_ = iota // can apply operators ex: iota + 5, 1 << iota
+	_ = iota // can apply operators ex: iota + 5, 1 < < iota
 	RED
 	YELLOW
 	BLUE
