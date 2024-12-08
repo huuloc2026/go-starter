@@ -10,7 +10,7 @@
 // 	var wg = sync.WaitGroup{}
 // 	wg.Add(2)
 // 	go func() {
-// 		count("Sheep")
+// 		count("Sheep")n k 0, 0,l0
 // 		wg.Done()
 // 	}()
 // 	go func() {
