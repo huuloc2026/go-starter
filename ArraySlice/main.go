@@ -3,6 +3,9 @@ package main
 import "fmt"
 
 func main() {
+	s := []int{2, 3, 4, 5, 6, 7, 8}
+	fmt.Print(s)
+
 	// pointStudent1 := 7
 	// pointStudent2 := 10
 	// fmt.Printf("%v - %T \n", pointStudent1, pointStudent1)
@@ -59,10 +62,10 @@ func main() {
 	// // a = append(a, 10)      // increase length&cap
 	// fmt.Printf("a:::%v - %v - %v \n ", a, len(a), cap(a))
 
-	a := []int{1, 2, 3, 4, 5, 6}
-	// b := a[:5] // pop
-	// b := a[1:] // shift
-	b := a[1:4]
-	// b := append(a[:2], a[3:]...)
-	fmt.Println(b)
+	// a := []int{1, 2, 3, 4, 5, 6}
+	// // b := a[:5] // pop
+	// // b := a[1:] // shift
+	// b := a[1:4]
+	// // b := append(a[:2], a[3:]...)
+	// fmt.Println(b)
 }
